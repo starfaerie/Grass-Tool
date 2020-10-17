@@ -16,4 +16,5 @@ This grass tool will allow environmental artists to procedurally add grass geome
 This tool is complete and absolutely unconditional freeware. Use it however you like, no attribution neccesary.
 
 ![QuestionCopyright.org](http://questioncopyright.org/cm/images/banner/qco-banner-blue-150x63.png)
+
 https://questioncopyright.org/
