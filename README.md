@@ -5,7 +5,7 @@ Currently only works in Unity's Standard Rendering Pipeline (support for LWRP, U
 
 [Website](**To be added) • [Documentation](**To be added) • [Changelog](**To be added) • [Feedback / Report Bugs](**To be added)
 
-This grass tool will allow environmental artists to procedurally add grass geometry to a Unity scene by intuitively painting points into a scene achieved using ~~witchcraft~~ GPU shader maths, rather than having to rely on 3D modeling and hand placing each object into the scene. I've attempted to recreate the method that I assume was used by the devs of Genshin Impact and significantly reduce the production time to create a high quality and interactive environment (interactive grass features to be added at a later update).
+This grass tool will allow environmental artists to procedurally add grass geometry to a Unity scene by intuitively painting points into a scene achieved using ~~stolen faerie magic~~ GPU shader maths, rather than having to rely on 3D modeling and hand placing each object into the scene. I've attempted to recreate the method that I assume was used by the devs of Genshin Impact and significantly reduce the production time to create a high quality and interactive environment (interactive grass features to be added at a later update).
   
 ## Installation
 ##### As a Submodule _(recommended for easy versioning and future updates)_
