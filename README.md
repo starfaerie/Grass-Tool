@@ -4,12 +4,8 @@ A GPU-based real-time grass placement tool for Unity by [Astrid Wilde](http://tw
 Currently only works in Unity's Standard Rendering Pipeline (support for LWRP, URP, and HDRP may be added at a later date)
 
 This grass tool will allow environmental artists to procedurally add grass geometry to a Unity scene by intuitively painting points into a scene achieved using ~~stolen faerie magic~~ GPU shader maths, rather than having to rely on 3D modeling and hand placing each object into the scene. I've attempted to recreate the method that I assume was used by the devs of Genshin Impact and significantly reduce the production time to create a high quality and interactive environment (interactive grass features to be added at a later update).
-  
-## Installation
-##### As a Submodule _(recommended for easy versioning and future updates)_
- * In your git client, add Grass-Tool as a submodule at `.../Assets/Grass-Tool`
-##### Direct Download (very much not recommended, but if you don't care about future updates I can't stop you...)
- * Click Clone or Download, then Download ZIP and put it in `.../Assets/Grass-Tool`
+
+Currently this repository contains an entire Unity Project built in Unity 2019.4.11 LTS but in the future will be converted to a standard Unity Package.
  
 ## License & Legal
 ♡2020 by Astrid Wilde. Copying Art is an act of love. Love is not subject to law.
