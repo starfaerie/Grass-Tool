@@ -10,7 +10,7 @@ This grass tool will allow environmental artists to procedurally add grass geome
 ## Installation
 ##### As a Submodule _(recommended for easy versioning and future updates)_
  * In your git client, add Grass-Tool as a submodule at `.../Assets/Grass-Tool`
-##### Direct Download (very much not recommended, but if you just wanna test it out right away without being able to download future updates from Unity I can't stop you...)
+##### Direct Download (very much not recommended, but if you don't care about future updates I can't stop you...)
  * Click Clone or Download, then Download ZIP and put it in `.../Assets/Grass-Tool`
  
 ## License & Legal
