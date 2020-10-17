@@ -15,7 +15,8 @@ This grass tool will allow environmental artists to procedurally add grass geome
  
 ## License & Legal
 ♡2020 by Astrid Wilde. Copying Art is an act of love. Love is not subject to law.
-This tool is unconditional freeware. Use it however you like, no attribution neccesary.
+
+(That means this tool is unconditional freeware. Use it however you like, no attribution neccesary.)
 
 ![QuestionCopyright.org](http://questioncopyright.org/cm/images/banner/qco-banner-blue-150x63.png)
 
