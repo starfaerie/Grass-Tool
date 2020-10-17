@@ -1,6 +1,7 @@
 ## Grass Placement Tool
 
 A GPU-based real-time grass placement tool for Unity by [Astrid Wilde](http://twitter.com/astridwilde1).
+Currently only works in Unity's Standard Rendering Pipeline (support for LWRP, URP, and HDRP may be added at a later date)
 
 [Website](**To be added) • [Documentation](**To be added) • [Changelog](**To be added) • [Feedback / Report Bugs](**To be added)
 
