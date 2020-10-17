@@ -1,6 +1,40 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+//<summary>Poisson Disc Sampling
+//Poisson Disc Sampling Algorithm based on Robert Bridson's original paper: https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf
+//and Jason Davie's beautiful description of that paper: https://www.jasondavies.com/poisson-disc/
+//Inspired to use the algorithm by Sebastion Lague's series on YouTube: https://www.youtube.com/watch?v=7WcmyxyFO7o
+//Shamelessly Stole this implementation from ddotb on GitHub https://github.com/ddotb/PoissonDistributor
+//In the future I intend to implement the faster and improved version of Poisson Disc Sampling as described by Dr. Martin Roberts:
+//http://extremelearning.com.au/an-improved-version-of-bridsons-algorithm-n-for-poisson-disc-sampling/
+//</summary>
+
+/*
+ * MIT License
+ *
+ *	Copyright (c) 2020 Ghoats
+ *
+ *	Permission is hereby granted, free of charge, to any person obtaining a copy
+ *	of this software and associated documentation files (the "Software"), to deal
+ *	in the Software without restriction, including without limitation the rights
+ *	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *	copies of the Software, and to permit persons to whom the Software is
+ *	furnished to do so, subject to the following conditions:
+ *
+ *	The above copyright notice and this permission notice shall be included in all
+ *	copies or substantial portions of the Software.
+ *
+ *	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ *	SOFTWARE.
+ *
+ */
+
 public static class PoissonDisc
 {
     private static readonly int MAX_ATTEMPTS = 30;

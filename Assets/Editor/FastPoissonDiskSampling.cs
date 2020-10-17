@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+//Not currently used
 public static class FastPoissonDiskSampling {
 
 	public static List<Vector2> GeneratePoints(float radius, Vector2 sampleRegionSize,
